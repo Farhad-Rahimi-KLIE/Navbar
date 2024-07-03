@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title></title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <!-- Brand -->
+      <a class="navbar-brand" href="#">Frk Website</a>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link homejan" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link aboutjan" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link contactjan" href="#">Sign In</a>
+          </li>
+        </ul>
+      </div>
+      <svg
+        id="menu"
+        class="menu"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 448 512">
+        <path
+          d="M448 64c0-17.7-14.3-32-32-32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32zm0 256c0-17.7-14.3-32-32-32H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H416c17.7 0 32-14.3 32-32zM0 192c0 17.7 14.3 32 32 32H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H32c-17.7 0-32 14.3-32 32zM448 448c0-17.7-14.3-32-32-32H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H416c17.7 0 32-14.3 32-32z" />
+      </svg>
+    </nav>
+    <div class="foodMenu">
+      <h1>Food Menu</h1>
+      <hr />
+      <ul>
+        <li>Pasta 50$ per Plat</li>
+      </ul>
+      <ul>
+        <li>Pizza 100$ per Plat</li>
+      </ul>
+      <ul>
+        <li>Qorma 40$ per Plat</li>
+      </ul>
+      <ul>
+        <li>Qabeli 200$ per Plat</li>
+      </ul>
+      <h5 id="Close">X</h5>
+    </div>
+    <div class="sign">
+      <h1>Sign In with FRk Website</h1>
+      <hr />
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input
+          id="name"
+          type="text"
+          class="form-control"
+          placeholder="Enter Name"
+          id="name" />
+      </div>
+      <div class="form-group my-4">
+        <label for="plate">Plate:</label>
+        <input
+          id="plate"
+          type="number"
+          class="form-control"
+          placeholder="Enter Plate Value"
+          id="plate" />
+      </div>
+      <button type="submit" id="order" class="btn btn-primary">Order</button>
+      <h5 id="close">X</h5>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
